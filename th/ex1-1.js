@@ -7,6 +7,13 @@
 */
 
 // Start Coding Here
+function calculate(a,b,callback){
+    return callback(a,b)
+}
+const add = (a,b) => a + b;
+const subtract = (a,b) => a - b;
+const multiply = (a,b) => a * b;
+const divide = (a,b) => b !== 0 ? a/b : "Cannot divide by zero";
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
