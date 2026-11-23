@@ -7,6 +7,9 @@
 
 let damage = 30;
 // Start Coding Here
+const playerAction = (action) => action(damage);
+const attack = (damage) => `💥 โจมตีสำเร็จ! สร้างความเสียหาย ${damage} แต้ม`;
+const runAway = () =>  `😨 หนีสำเร็จ! รอดตายหวุดหวิด!`;
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
